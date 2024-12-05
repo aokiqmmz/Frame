@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ly h, sjtu, LIC=65ISZ-JRSQ9-NNIAF-65BC6-P31TL-EMMCC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\CLionProjects\FRAME\MDK-ARM\FRAME.uvprojx
+Project File Date:  12/06/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'FRAME'
+Note: source file '..\Core\Src\callback.cpp' - object file renamed from 'FRAME\callback.o' to 'FRAME\callback_1.o'.
+Note: source file '..\Core\Src\imu.cpp' - object file renamed from 'FRAME\imu.o' to 'FRAME\imu_1.o'.
+Note: source file '..\Core\Src\main.cpp' - object file renamed from 'FRAME\main.o' to 'FRAME\main_1.o'.
+compiling imu.cpp...
+../Core/Src/control.cpp(8): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_uart.h(28): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h(29): warning: In file included from...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+../Core/Inc\stm32f4xx_hal_conf.h(275): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_rcc.h(31): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h(6806): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h(6818): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_RCCEx_EnablePLLI2S(RCC_PLLI2SInitTypeDef  *PLLI2SInit);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h(6819): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_RCCEx_DisablePLLI2S(void);
+^
+../Core/Src/control.cpp(8): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_uart.h(28): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h(29): warning: In file included from...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+../Core/Inc\stm32f4xx_hal_conf.h(275): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_rcc.h(1244): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_RCC_DeInit(void);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_rcc.h(1245): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef *RCC_OscInitStruct);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_rcc.h(1246): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef *RCC_ClkInitStruct, uint32_t FLatency);
+^
+../Core/Src/control.cpp(8): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_uart.h(28): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h(29): warning: In file included from...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+../Core/Inc\stm32f4xx_hal_conf.h(279): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_gpio.h(237): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+^
+../Core/Src/control.cpp(8): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_uart.h(28): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h(29): warning: In file included from...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+../Core/Inc\stm32f4xx_hal_conf.h(283): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_exti.h(326): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_exti.h(327): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_exti.h(328): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_exti.h(329): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti, EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_exti.h(330): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLine);
+^
+../Core/Src/control.cpp(8): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_uart.h(28): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h(29): warning: In file included from...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+../Core/Inc\stm32f4xx_hal_conf.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(144): error: unknown type name 'HAL_LockTypeDef'
+  HAL_LockTypeDef            Lock;                                                             /*!< DMA locking object                     */  
+  ^
+../Core/Src/control.cpp(8): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_uart.h(28): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h(29): warning: In file included from...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+../Core/Inc\stm32f4xx_hal_conf.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(639): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h(69): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_DMAEx_MultiBufferStart(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t SecondMemAddress, uint32_t DataLength);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h(70): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_DMAEx_MultiBufferStart_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t SecondMemAddress, uint32_t DataLength);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h(71): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_DMAEx_ChangeMemory(DMA_HandleTypeDef *hdma, uint32_t Address, HAL_DMA_MemoryTypeDef memory);
+^
+../Core/Src/control.cpp(8): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_uart.h(28): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h(29): warning: In file included from...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+../Core/Inc\stm32f4xx_hal_conf.h(287): warning: In file included from...
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(652): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma); 
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(653): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_DMA_DeInit(DMA_HandleTypeDef *hdma);
+^
+../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(662): error: unknown type name 'HAL_StatusTypeDef'
+HAL_StatusTypeDef HAL_DMA_Start (DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling control.cpp...
+"FRAME\FRAME.axf" - 19 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_FRAME
+  D:/Program Files/Keil_v5/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Program Files/Keil_v5/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
