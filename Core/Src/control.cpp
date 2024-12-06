@@ -39,18 +39,18 @@ void mainLoop() {
 
     imu.readGyroRate();
     imu.readAccelRate();
-    imu.dataProcess(0.0004);
+    imu.dataProcess();
 
     if (remote.switch_.r == down) {
         uint8_t data[8] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
         sendCanMessage(&hcan1, 0x1FF, data, 8);
     }
     else {
-        pid_pitch_angle.PID_Calc(remote.channel_.l_col, imu.p_degree);
+        pid_pitch_angle.PID_Calc(0, imu.p_degree);
         pid_pitch_speed.PID_Calc(pid_pitch_angle.output, pit_motor.rotate_speed_);
 
-        pid_yaw_angle.PID_Calc(refe, imu.p_degree);
-        pid_yaw_speed.PID_Calc(pid_yaw_angle.output, pit_motor.rotate_speed_);
+        pid_yaw_angle.PID_Calc(refe, imu.y_degree);
+        pid_yaw_speed.PID_Calc(pid_yaw_angle.output, yaw_motor.rotate_speed_);
 
         uint16_t scaled_output_pit = (uint16_t)(pid_pitch_speed.output) + (-34.5156*imu.p_degree + 1.7781e+03);
         uint16_t scaled_output_yaw = (uint16_t)(pid_yaw_speed.output);

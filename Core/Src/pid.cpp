@@ -37,3 +37,8 @@ float PID::PID_Calc(float ref, float fdb) {
 
     return this->output;
 }
+
+PID pid_pitch_angle(0.029999997, 7.00e-06, 0.5, 10000, 10000);
+PID pid_pitch_speed(120000, 0.0029999998, 0.5, 10000, 10000);
+PID pid_yaw_angle(0.03,0,0.25,10000,10000);
+PID pid_yaw_speed(160000,0,100,10000,10000);

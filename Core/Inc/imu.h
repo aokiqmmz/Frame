@@ -39,14 +39,16 @@ public:
         float y_gyro;
     };
 
-    IMU();
+    IMU(float k);
     void init();
     void readGyroRate();
     void readAccelRate();
-    void dataProcess(float k);
+    void dataProcess();
     float linearMapping(int value, int in_min, int in_max, float out_min, float out_max);
     float p, r, y;
-    float p_degree;
+    float p_degree, y_degree;
+    float dt;
+    float k;
 
 private:
     void BMI088_ACCEL_NS_L();
@@ -65,9 +67,6 @@ private:
     Gyro gyro_c;
     Accel accel_c;
     EulerAngles euler_imu;
-
-    float dt;
-    float k;
 };
 
 extern IMU imu;

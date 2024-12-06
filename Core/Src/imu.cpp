@@ -8,7 +8,8 @@
 
 #define PI 3.1415926
 
-IMU::IMU() : p(0), r(0), y(0), p_degree(0), dt(0.001f) {
+IMU::IMU(float k) : p(0), r(0), y(0), p_degree(0), dt(0.001f) {
+    this->k = k;
     gyro_c = {0, 0, 0, 0.0f, 0.0f, 0.0f};
     accel_c = {0, 0, 0, 0.0f, 0.0f, 0.0f};
     euler_imu = {0, 0, 0, 0.0f, 0.0f, 0.0f};
@@ -77,6 +78,8 @@ void IMU::BMI088_read_acc_single_reg(uint8_t reg, uint8_t* return_data, uint8_t 
     uint8_t reg_send = reg | 0x80;
     HAL_SPI_Transmit(&hspi1, &reg_send, 1, 100);
     while (HAL_SPI_GetState(&hspi1) == HAL_SPI_STATE_BUSY_TX);
+    HAL_SPI_Receive(&hspi1, return_data, 1, 100);
+    while (HAL_SPI_GetState(&hspi1) == HAL_SPI_STATE_BUSY_TX);
     HAL_SPI_Receive(&hspi1, return_data, length, 100);
     while (HAL_SPI_GetState(&hspi1) == HAL_SPI_STATE_BUSY_TX);
     BMI088_ACCEL_NS_H();
@@ -108,7 +111,7 @@ void IMU::readAccelRate() {
     accel_c.accel_z = accel_c.RATE_Z / 32768.0 * 1000.0 * pow(2, (2 + 1)) * 1.5;
 }
 
-void IMU::dataProcess(float k) {
+void IMU::dataProcess() {
     euler_imu.p_accel = -atan2(accel_c.accel_x, sqrt(accel_c.accel_y * accel_c.accel_y + accel_c.accel_z * accel_c.accel_z));
     euler_imu.r_accel = atan2(accel_c.accel_y, accel_c.accel_z);
     euler_imu.r_gyro = r + (gyro_c.angular_rate_x + gyro_c.angular_rate_y * sin(p) * sin(r) / cos(p) + gyro_c.angular_rate_z * cos(r) * sin(p) / cos(p)) * dt;
@@ -120,6 +123,7 @@ void IMU::dataProcess(float k) {
     y = euler_imu.y_gyro;
 
     p_degree = p * 180 / PI;
+    y_degree = y * 180 / PI;
 }
 
 IMU::EulerAngles IMU::getEulerAngles() const {
@@ -132,4 +136,4 @@ float IMU::linearMapping(int value, int in_min, int in_max, float out_min, float
     return out;
 }
 
-IMU imu;
+IMU imu(0.0004);
