@@ -1,4 +1,4 @@
-frame/remote.o: ..\Core\Src\remote.cpp ..\Core\Src\remote.h \
+frame/remote.o: ..\Core\Src\remote.cpp ..\Core\Inc\remote.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdint \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__assert \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \

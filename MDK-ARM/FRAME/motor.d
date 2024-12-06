@@ -1,4 +1,4 @@
-frame/motor.o: ..\Core\Src\motor.cpp ..\Core\Src\motor.h \
+frame/motor.o: ..\Core\Src\motor.cpp ..\Core\Inc\motor.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \

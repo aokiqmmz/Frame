@@ -28,25 +28,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 70,
+				"line" : 64,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 66,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 67,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -181,13 +181,13 @@
 			},
 			"sourceIndexes" : 
 			[
-				16,
-				18,
-				22,
-				25,
+				21,
+				23,
 				26,
 				28,
-				30
+				29,
+				30,
+				31
 			]
 		},
 		{
@@ -282,10 +282,10 @@
 			},
 			"sourceIndexes" : 
 			[
-				17,
-				20,
-				21,
+				22,
 				24,
+				25,
+				27,
 				32,
 				33,
 				34,
@@ -452,36 +452,6 @@
 				"backtrace" : 4,
 				"fragment" : "D:/CLionProjects/FRAME/STM32F407IGHX_FLASH.ld",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/pid.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/callback.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/remote.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/imu.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/control.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/main.cpp",
-				"role" : "flags"
 			}
 		],
 		"language" : "CXX"
@@ -509,11 +479,11 @@
 				7,
 				8,
 				9,
-				19,
-				23,
-				27,
-				29,
-				31,
+				10,
+				11,
+				12,
+				13,
+				14,
 				41,
 				42,
 				43,
@@ -586,12 +556,12 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				10,
-				11,
-				12,
-				13,
-				14,
 				15,
+				16,
+				17,
+				18,
+				19,
+				20,
 				40,
 				44,
 				75,
@@ -603,17 +573,17 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				16,
-				17,
-				18,
-				20,
 				21,
 				22,
+				23,
 				24,
 				25,
 				26,
+				27,
 				28,
+				29,
 				30,
+				31,
 				32,
 				33,
 				34,
@@ -657,6 +627,11 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Core/Inc/control.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Core/Inc/dma.h",
 			"sourceGroupIndex" : 0
 		},
@@ -667,7 +642,27 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Core/Inc/imu.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Core/Inc/main.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/motor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/pid.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/remote.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -745,11 +740,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Core/Src/control.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "Core/Src/dma.c",
 			"sourceGroupIndex" : 2
@@ -765,11 +755,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/imu.cpp",
 			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Core/Src/imu.h",
-			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
@@ -791,30 +776,15 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Core/Src/motor.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/pid.cpp",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Core/Src/pid.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/remote.cpp",
 			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Core/Src/remote.h",
-			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,

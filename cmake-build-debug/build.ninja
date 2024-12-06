@@ -56,6 +56,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/callback.cpp.obj: CXX_COMPILER__FRAME.2e
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/can.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/can.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -64,6 +66,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/can.c.obj: C_COMPILER__FRAME.2eelf_unsca
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/control.cpp.obj: CXX_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/control.cpp || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -72,6 +76,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/control.cpp.obj: CXX_COMPILER__FRAME.2ee
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/dma.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/dma.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -80,6 +86,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/dma.c.obj: C_COMPILER__FRAME.2eelf_unsca
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/gpio.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/gpio.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -88,6 +96,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/gpio.c.obj: C_COMPILER__FRAME.2eelf_unsc
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/imu.cpp.obj: CXX_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/imu.cpp || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -96,6 +106,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/imu.cpp.obj: CXX_COMPILER__FRAME.2eelf_u
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/main.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/main.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -104,6 +116,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/main.c.obj: C_COMPILER__FRAME.2eelf_unsc
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/main.cpp.obj: CXX_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/main.cpp || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -112,6 +126,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/main.cpp.obj: CXX_COMPILER__FRAME.2eelf_
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/motor.cpp.obj: CXX_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/motor.cpp || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -120,6 +136,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/motor.cpp.obj: CXX_COMPILER__FRAME.2eelf
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/pid.cpp.obj: CXX_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/pid.cpp || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -128,6 +146,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/pid.cpp.obj: CXX_COMPILER__FRAME.2eelf_u
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/remote.cpp.obj: CXX_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/remote.cpp || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -136,6 +156,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/remote.cpp.obj: CXX_COMPILER__FRAME.2eel
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/spi.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/spi.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -144,6 +166,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/spi.c.obj: C_COMPILER__FRAME.2eelf_unsca
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/stm32f4xx_hal_msp.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -152,6 +176,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C_COMPILER__FRA
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/stm32f4xx_it.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/stm32f4xx_it.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -160,6 +186,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/stm32f4xx_it.c.obj: C_COMPILER__FRAME.2e
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/syscalls.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -168,6 +196,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__FRAME.2eelf_
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/sysmem.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/sysmem.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -176,6 +206,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/sysmem.c.obj: C_COMPILER__FRAME.2eelf_un
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/system_stm32f4xx.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/system_stm32f4xx.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -184,6 +216,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/system_stm32f4xx.c.obj: C_COMPILER__FRAM
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/tim.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/tim.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -192,6 +226,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/tim.c.obj: C_COMPILER__FRAME.2eelf_unsca
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Src/usart.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Src/usart.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -200,6 +236,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Src/usart.c.obj: C_COMPILER__FRAME.2eelf_uns
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: ASM_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Core/Startup/startup_stm32f407ighx.s || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -208,6 +246,8 @@ build CMakeFiles/FRAME.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: ASM_COM
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Core\Startup
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -216,6 +256,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -224,6 +266,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ca
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -232,6 +276,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_co
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -240,6 +286,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dm
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -248,6 +296,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dm
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -256,6 +306,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ex
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -264,6 +316,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -272,6 +326,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -280,6 +336,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -288,6 +346,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gp
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -296,6 +356,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pw
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -304,6 +366,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pw
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -312,6 +376,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rc
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -320,6 +386,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rc
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -328,6 +396,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sp
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -336,6 +406,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ti
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -344,6 +416,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ti
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C_COMPILER__FRAME.2eelf_unscanned_Debug D$:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c || cmake_object_order_depends_target_FRAME.elf
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
@@ -352,6 +426,8 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ua
   INCLUDES = -ID:/CLionProjects/FRAME/Core/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc -ID:/CLionProjects/FRAME/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -ID:/CLionProjects/FRAME/Drivers/CMSIS/Device/ST/STM32F4xx/Include -ID:/CLionProjects/FRAME/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\FRAME.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
+  TARGET_PDB = FRAME.elf.pdb
 
 
 # =============================================================================
@@ -363,12 +439,13 @@ build CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ua
 
 build FRAME.elf: CXX_EXECUTABLE_LINKER__FRAME.2eelf_Debug CMakeFiles/FRAME.elf.dir/Core/Src/callback.cpp.obj CMakeFiles/FRAME.elf.dir/Core/Src/can.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/control.cpp.obj CMakeFiles/FRAME.elf.dir/Core/Src/dma.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/gpio.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/imu.cpp.obj CMakeFiles/FRAME.elf.dir/Core/Src/main.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/main.cpp.obj CMakeFiles/FRAME.elf.dir/Core/Src/motor.cpp.obj CMakeFiles/FRAME.elf.dir/Core/Src/pid.cpp.obj CMakeFiles/FRAME.elf.dir/Core/Src/remote.cpp.obj CMakeFiles/FRAME.elf.dir/Core/Src/spi.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/stm32f4xx_it.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/sysmem.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/system_stm32f4xx.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/tim.c.obj CMakeFiles/FRAME.elf.dir/Core/Src/usart.c.obj CMakeFiles/FRAME.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj CMakeFiles/FRAME.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=D:/CLionProjects/FRAME/cmake-build-debug/FRAME.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T D:/CLionProjects/FRAME/STM32F407IGHX_FLASH.ld Core/Src/pid.cpp Core/Src/callback.cpp Core/Src/remote.cpp Core/Src/imu.cpp Core/Src/control.cpp Core/Src/main.cpp
+  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=D:/CLionProjects/FRAME/cmake-build-debug/FRAME.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T D:/CLionProjects/FRAME/STM32F407IGHX_FLASH.ld
   OBJECT_DIR = CMakeFiles\FRAME.elf.dir
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D D:\CLionProjects\FRAME\cmake-build-debug && arm-none-eabi-objcopy -Oihex D:/CLionProjects/FRAME/cmake-build-debug/FRAME.elf D:/CLionProjects/FRAME/cmake-build-debug/FRAME.hex && arm-none-eabi-objcopy -Obinary D:/CLionProjects/FRAME/cmake-build-debug/FRAME.elf D:/CLionProjects/FRAME/cmake-build-debug/FRAME.bin"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\FRAME.elf.dir\
   TARGET_FILE = FRAME.elf
-  TARGET_PDB = FRAME.elf.dbg
+  TARGET_PDB = FRAME.elf.pdb
 
 
 #############################################
@@ -413,14 +490,14 @@ build all: phony FRAME.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeASMInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-ASM.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeASMCompiler.cmake CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/FRAME/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeASMCompiler.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeASMInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestASMCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-ASM.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeASMCompiler.cmake CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/FRAME/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeASMInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-ASM.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeASMCompiler.cmake CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/FRAME/CMakeLists.txt: phony
+build C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeASMCompiler.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeASMInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestASMCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-ASM.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Users/h/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeASMCompiler.cmake CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/FRAME/CMakeLists.txt: phony
 
 
 #############################################

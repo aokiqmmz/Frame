@@ -40,6 +40,6 @@ frame/callback_1.o: ..\Core\Src\callback.cpp ..\Core\Inc\callback.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__availability \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  ..\Core\Inc\usart.h ..\Core\Src\motor.h ..\Core\Src\remote.h \
+  ..\Core\Inc\usart.h ..\Core\Inc\motor.h ..\Core\Inc\remote.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdint \
-  ..\Core\Src\control.h
+  ..\Core\Inc\control.h

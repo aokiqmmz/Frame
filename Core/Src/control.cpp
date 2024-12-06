@@ -5,7 +5,7 @@
 #include "control.h"
 #include "pid.h"
 #include "imu.h"
-#include "stm32f4xx_hal_uart.h"
+#include "stm32f4xx_hal.h" // include _hal_uart.h  fail
 #include "usart.h"
 #include "remote.h"
 #include "can.h"
@@ -32,7 +32,7 @@ void sendCanMessage(CAN_HandleTypeDef *hcan, uint32_t StdId, uint8_t *pData, uin
     }
 }
 
-void mainLoop(void) {
+void mainLoop() {
     //mainCnt++;
     //HAL_IWDG_Refresh(&hiwdg);
     HAL_UARTEx_ReceiveToIdle_DMA(&huart3, remote.buffer, 18);

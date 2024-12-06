@@ -1,5 +1,5 @@
-frame/control.o: ..\Core\Src\control.cpp ..\Core\Src\control.h \
-  ..\Core\Src\pid.h ..\Core\Src\imu.h \
+frame/control.o: ..\Core\Src\control.cpp ..\Core\Inc\control.h \
+  ..\Core\Inc\pid.h ..\Core\Inc\imu.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
@@ -143,7 +143,9 @@ frame/control.o: ..\Core\Src\control.cpp ..\Core\Src\control.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__undef_macros \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
+  ..\Core\Inc\stm32f4xx_hal_conf.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h \
@@ -153,9 +155,7 @@ frame/control.o: ..\Core\Src\control.cpp ..\Core\Src\control.h \
   ..\Drivers\CMSIS\Include\cmsis_armclang.h \
   ..\Drivers\CMSIS\Include\mpu_armv7.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
-  ..\Core\Inc\stm32f4xx_hal_conf.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h \
@@ -172,6 +172,6 @@ frame/control.o: ..\Core\Src\control.cpp ..\Core\Src\control.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
-  ..\Core\Inc\usart.h ..\Core\Inc\main.h ..\Core\Src\remote.h \
-  ..\Core\Inc\can.h ..\Core\Src\motor.h
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
+  ..\Core\Inc\usart.h ..\Core\Inc\main.h ..\Core\Inc\remote.h \
+  ..\Core\Inc\can.h ..\Core\Inc\motor.h
