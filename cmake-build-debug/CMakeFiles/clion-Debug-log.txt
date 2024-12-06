@@ -1,5 +1,5 @@
 C:\Users\h\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/h/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe "-DCMAKE_C_COMPILER=D:/Program Files/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=D:/Program Files/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe" -G Ninja -S D:\CLionProjects\FRAME -B D:\CLionProjects\FRAME\cmake-build-debug
 -- Minimal optimization, debug info included
--- Configuring done (0.6s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/CLionProjects/FRAME/cmake-build-debug
